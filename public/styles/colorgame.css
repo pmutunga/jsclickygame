@@ -1,0 +1,100 @@
+body{
+    background:black;
+    margin:0;
+    font-family: 'Arial';
+}
+   
+/* style the header */
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    line-height:1.1;
+    /* remove black space */
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+/* style the container*/
+
+.container {
+    max-width: 600px;
+    margin: 20px auto; /* center the container and put a 20px margin on the top and bottom*/
+}
+
+
+/* Style the squares and make them responsive */
+.square{
+    width: 30%;
+    background: purple;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left; /*this makes them spread horizontally.*/
+    border-radius: 15%; /* rounded corners */
+    transition-delay: 0.4s;
+    /* transition: backgroundColor 0.5s; /*by itslef this doesn't work on a;; browsers*/
+    /* -webkit-transition: backgroundColor 0.5s; /* webkit engine for browsers like safari*/
+    /* -moz-transition: backgroundColor 0.5s; */ 
+     */
+}
+
+/* #message {
+    color:rgba(0, 0, 255, 0.329);
+    text-align: center;
+    height: 30px;
+} */
+
+/* Add styling to stripe */
+
+#stripe {
+
+    background: white;
+    text-align: center;
+    height: 30px;
+    color: black;
+}
+
+/* Add styling to show selected button */
+
+.selected {
+
+    background: steelblue;
+    color: white;
+
+}
+
+#pickedColor {
+    font-size: 200%;
+}
+
+button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s; /*fades transitions of color on all buttns */
+    outline: none; /*takes out the border */
+}
+
+/* Improve the spacing of the buttons and the message */
+
+#message{
+    display: inline-block;
+    width: 20%;
+    text-transform: uppercase;
+    color: steelblue;
+    font-size: inherit;
+    font-weight: 700;
+    }
+
+button:hover {
+    background: steelblue;
+    color: white;
+}
